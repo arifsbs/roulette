@@ -1,0 +1,16 @@
+package com.games.roulette.util;
+
+import com.games.roulette.IPocketType;
+
+/**
+ * Enum to represent valid pockets used while placing bets
+ *
+ */
+public enum NumberPocketType implements IPocketType {
+	
+	ZERO, DOUBLEZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN,
+	ELEVEN, TWELVE, THIRTEEN, FOURTEEN, FIFETEEN, SIXTEEN, SEVENTEEN, EIGHTEEN, NINETEEN, TWENTY, 
+	TWENTYONE, TWENTYTWO, TWENTYTHREE, TWENTYFOUR, TWENTYFIVE, TWENTYSIX, TWENTYSEVEN, TWENTYEIGHT, 
+	TWENTYNINE, THIRTY, THIRTYONE, THIRTYTWO, THIRTYTHREE, THIRTYFOUR, THIRTYFIVE, THIRTYSIX
+	
+}
